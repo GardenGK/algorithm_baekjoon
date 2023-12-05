@@ -10,7 +10,7 @@ public class Main{
           int sum = 0;
         
         for(int i = 0 ; i < charArr.length;i++){
-            sum += charArr[i] - '0';
+            sum += Character.getNumericValue(charArr[i]);
         }
         System.out.print(sum);
     }
